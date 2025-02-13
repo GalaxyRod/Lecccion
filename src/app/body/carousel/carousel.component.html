@@ -1,0 +1,38 @@
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src= "https://i.pinimg.com/originals/7a/ae/3b/7aae3bcb24338b123b4c0805ee20da89.jpg" class="d-block w-100" alt="Imagen 1">
+          </div>
+       @for(images of image; track images.idMeal){ 
+      <div class="carousel-item">
+        <img src= {{images.strMealThumb}} class="d-block w-100" alt="Imagen 1">
+      </div>
+    }
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <!-- Descripción profesional del restaurante -->
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-center">Bienvenidos a Restaurante Delicioso</h2>
+        <p class="text-center text-muted">Donde la comida y la pasión se encuentran</p>
+        <p class="text-justify">
+          En Restaurante Delicioso, nos enorgullecemos de ofrecer una experiencia culinaria única. Nuestro equipo de chefs expertos utiliza solo los ingredientes más frescos y de la más alta calidad para preparar cada plato. Desde nuestras entradas hasta nuestros postres, cada bocado está diseñado para deleitar sus sentidos.
+        </p>
+        <p class="text-justify">
+          Nuestro menú incluye una variedad de platos internacionales y locales, todos preparados con un toque especial que solo encontrará en Restaurante Delicioso. Ya sea que esté buscando una cena romántica para dos o una celebración en grupo, nuestro ambiente acogedor y nuestro personal amable harán que su visita sea inolvidable.
+        </p>
+        <p class="text-justify">
+          Visítenos hoy y descubra por qué Restaurante Delicioso es el lugar perfecto para disfrutar de una comida excepcional. ¡Esperamos darle la bienvenida pronto!
+        </p>
+      </div>
+    </div>
+  </div>
+  
